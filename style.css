@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    background-color: #e5e5e5;
+}
+
+#pongCanvas {
+    max-width: 600px;
+    max-height: 600px;
+    border: none;
+}
+
+h6 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center
+}
+
+p {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center
+}
+
+p a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
